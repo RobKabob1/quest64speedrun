@@ -71,7 +71,7 @@ st.write("Get on boat to West Carmagh")
 
 st.divider()
 
-st.header("West Carmagh/Larapool (0:31:33)")
+st.header("West Carmagh/Larapool/Cull Hazard (0:31:33)")
 st.image('images/WestCarmagh.jpg')
 west_carmagh_larapool_df = pd.DataFrame(
     {
@@ -199,5 +199,4 @@ zelse_df = pd.DataFrame(
     }
 )
 st.table(zelse_df)
-
 st.write("End at 0:59:43")

@@ -23,3 +23,4 @@ It shows times, spirits, chests, strategies, and everything you need to get a ru
 - Fuzzy's Speedrun: https://www.youtube.com/watch?v=VJxcMVaBfK8&t=1868s
 - Quest 64 Calculations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/66316
 - Spirit Locations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/38586
+- Maps: https://shrines.rpgclassics.com/n64/quest64/map/elimelin.shtml

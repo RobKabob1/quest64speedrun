@@ -98,7 +98,7 @@ with st.container(border=True):
     st.write('''Magic Barrier and Avalanche back and forth.  
              Remember to Magic Barrier every 2 turns!  
              Use MP items in between Magic Barriers. Mint Leaves first.  
-             If you have lots of HP items, then do Confusion to get MP. Then use HP item after magic barrier. This saves an MP item.  
+             If you have lots of HP items, then do Confusion to get MP. Then use HP item after Magic Barrier. This saves an MP item.  
              ''')
 st.write("Head out of the underwater arena once Nepty is dead, get into an encounter, and die to an encounter. This death warp's us to Efna. Make sure to save here. Then, get on a boat to East Limelin.")
 st.write("End at 1:22:11")
