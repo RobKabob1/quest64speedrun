@@ -19,7 +19,7 @@ It shows times, spirits, chests, strategies, and everything you need to get a ru
 | Mammon | 2:34:23 |
 
 ## Fuzzy's Speedrun
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VJxcMVaBfK8/0.jpg)](https://www.youtube.com/watch?v=VJxcMVaBfK8)
+[![Fuzzy's Speedrun](https://img.youtube.com/vi/VJxcMVaBfK8/maxresdefault.jpg)](https://www.youtube.com/watch?v=VJxcMVaBfK8)
 
 ## Socials
 - Quest 64 Discord: https://discord.gg/7qvydbgn
