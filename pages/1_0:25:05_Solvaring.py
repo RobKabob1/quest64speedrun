@@ -110,7 +110,7 @@ st.write('''Make sure to have 63 HP, 17 MP, 16 Water, and Ice Knife before going
 st.divider()
 
 st.header("Solvaring (0:19:00)")
-donoran_df = pd.DataFrame(
+solvaring_1_df = pd.DataFrame(
     {
         "Event": [
             "🍞 Item", 
@@ -121,7 +121,7 @@ donoran_df = pd.DataFrame(
             ]
     }
 )
-st.table(donoran_df)
+st.table(solvaring_1_df)
 
 with st.container(border=True):
     st.subheader("Solvaring Tips")
@@ -133,7 +133,7 @@ with st.container(border=True):
              ''')
     st.write()
 
-connor_forest_df = pd.DataFrame(
+solvaring_2_df = pd.DataFrame(
     {
         "Event": [
             "- Action -",
@@ -145,6 +145,6 @@ connor_forest_df = pd.DataFrame(
             ]
     }
 )
-st.table(connor_forest_df)
+st.table(solvaring_2_df)
 
 st.write("End at 0:25:05")
