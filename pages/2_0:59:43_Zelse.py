@@ -168,6 +168,9 @@ windward_forest_df = pd.DataFrame(
 )
 st.table(windward_forest_df)
 
+st.write('''Make sure to have 81 HP, 20 MP, 24 Earth, and 23 Water before going to Zelse.  
+         Reasoning for this is that we need Avalanche.''')
+
 st.divider()
 
 st.header("Zelse (0:55:55)")
@@ -180,7 +183,6 @@ with st.container(border=True):
              Engage with Spirit Armor as your first move, move close to him, then Avalanche away.
              ''')
 st.write("After Zelse is dead put 25 in Water for Heal 2 and put the rest in Earth for 27")
-
 
 zelse_df = pd.DataFrame(
     {
