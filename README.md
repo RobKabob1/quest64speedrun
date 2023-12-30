@@ -18,9 +18,11 @@ It shows times, spirits, chests, strategies, and everything you need to get a ru
 | Beigis | 2:24:10 |
 | Mammon | 2:34:23 |
 
+## Fuzzy's Speedrun
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VJxcMVaBfK8/0.jpg)](https://www.youtube.com/watch?v=VJxcMVaBfK8)
+
 ## Socials
 - Quest 64 Discord: https://discord.gg/7qvydbgn
-- Fuzzy's Speedrun: https://www.youtube.com/watch?v=VJxcMVaBfK8&t=1868s
 - Quest 64 Calculations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/66316
 - Spirit Locations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/38586
 - Maps: https://shrines.rpgclassics.com/n64/quest64/map/elimelin.shtml
