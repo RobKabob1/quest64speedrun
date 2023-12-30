@@ -1,6 +1,6 @@
 # Quest 64 Any % Glitchless Speedrun
 
-This [Streamlit App](https://quest64speedrun.streamlit.app) is to detail a Quest 64 Any% Glitchless run. 
+This [Streamlit App](https://quest64speedrun.streamlit.app) details a Quest 64 Any% Glitchless speedrun. 
 It shows times, spirits, chests, strategies, and everything you need to get a run going.
 
 <img src="https://assets-prd.ignimgs.com/2023/03/11/quest64-1678500187713.jpg" width=50% height=50%>
