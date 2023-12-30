@@ -4,9 +4,9 @@ import datetime
 
 st.title("Quest 64 Any % Glitchless Speedrun", anchor=None, help=None)
 
-st.write("This Streamlit App is to detail a Quest 64 Any% Glitchless run. It shows times, spirits, chests, strategies, and everything you need to get a run going.")
+st.write("This Streamlit App details a Quest 64 Any% Glitchless speedrun. It shows times, spirits, chests, strategies, and everything you need to get a run going.")
 
-st.image("https://assets-prd.ignimgs.com/2023/03/11/quest64-1678500187713.jpg", caption='Quest 64')
+st.image("https://assets-prd.ignimgs.com/2023/03/11/quest64-1678500187713.jpg")
 
 st.header("Timings")
 
