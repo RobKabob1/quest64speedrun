@@ -11,9 +11,9 @@ st.header("More Brannoch Castle (2:16:50)")
 brannoch_df = pd.DataFrame(
     {
         "Event": [
-            "🏺 Item", 
-            "🏺 Item", 
-            "🏺 Item", 
+            "🔺🍾 Item", 
+            "🌿 Item", 
+            "🏺🔺 Item", 
             "❔ Spirit 62",
             "- Action -"
             ],
