@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Solvaring",
+    page_icon="🪨",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 st.title("Solvaring", anchor=None, help=None)
 st.warning('''##### Goals: 63 HP, 17 MP, 16 Water. Have Ice Knife.''')
 

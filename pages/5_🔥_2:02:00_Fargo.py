@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Fargo",
+    page_icon="🔥",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 st.title("Fargo", anchor=None, help=None)
 st.warning('''##### Goals: 136 HP, 23 MP, 50 Earth, 39 Water.''')
 

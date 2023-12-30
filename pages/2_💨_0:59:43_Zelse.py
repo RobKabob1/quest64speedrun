@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Zelse",
+    page_icon="💨",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 st.title("Zelse", anchor=None, help=None)
 st.warning('''##### Goals: 81 HP, 20 MP, 24 Earth, 23 Water. Have Avalanche and Escape.''')
 

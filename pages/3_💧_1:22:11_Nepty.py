@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Nepty",
+    page_icon="💧",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 st.title("Nepty", anchor=None, help=None)
 st.warning('''##### Goals: 97 HP, 21 MP, 38 Earth, 25 Water. Have Magic Barrier.''')
 

@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Shilf",
+    page_icon="❤️‍🔥",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 st.title("Shilf", anchor=None, help=None)
 st.warning('''##### Goals: 115 HP, 22 MP, 50 Earth, 30 Water. Have max Earth for more Avalanche damage.''')
 
