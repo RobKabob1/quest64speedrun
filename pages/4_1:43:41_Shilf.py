@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("Shilf", anchor=None, help=None)
-with st.container(border=True):
-    st.write('''Goals: 115 HP, 22 MP, 50 Earth, 30 Water. Have max Earth for more Avalanche damage.''')
-
-st.divider()
+st.warning('''##### Goals: 115 HP, 22 MP, 50 Earth, 30 Water. Have max Earth for more Avalanche damage.''')
 
 st.header("East Limelin (1:22:11)")
 st.image('images/EastLimelin.jpg')
@@ -45,16 +42,12 @@ east_limelin_1_df = pd.DataFrame(
 )
 st.table(east_limelin_1_df)
 
-st.divider()
-
 st.header("Baragoon Tunnel (1:30:06)")
-
-with st.container(border=True):
-    st.subheader("Baragoon Tunnel Tips")
-    st.markdown('''
-                * In this tunnel, be at full health most of the time because they hit hard.  
-                * Watch out for the fire bomb guys. They hit for half health.
-                ''')
+st.info('''
+        ### Baragoon Tunnel Tips
+        * In this tunnel, be at full health most of the time because they hit hard.  
+        * Watch out for the fire bomb guys. They hit for half health.
+        ''')
 baragoon_tunnel_df = pd.DataFrame(
     {
         "Event": [
@@ -77,20 +70,17 @@ st.table(baragoon_tunnel_df)
 st.write('''Make sure to have 115 HP, 22 MP, 50 Earth, and 30 Water before going to Shilf.  
         ''')
 
-st.divider()
-
 st.header("Shilf (1:40:32)")
-with st.container(border=True):
-    st.subheader("Shilf Tips")
-    st.write("1,000 HP")
-    st.write('''
-             * You want her to walk forward so your rocks can hit.  
-             * Engage with a Magic barrier, skip turn, then Avalanche in her face.  
-             * If she doesn’t walk just keep Magic Barrier + walk.  
-             * Use MP items in between Magic Barrier.  
-             * Her laser should do around 57 HP. Always be above this!  
-             * If you have lots of HP items, then do Confusion to get MP. Then use HP item after Magic Barrier. This saves an MP item.  
-             ''')
+st.error('''
+        ### Shilf Tips
+        ###### 1,000 HP
+        * You want her to walk forward so your rocks can hit.  
+        * Engage with a Magic barrier, skip turn, then Avalanche in her face.  
+        * If she doesn’t walk just keep Magic Barrier + walk.  
+        * Use MP items in between Magic Barrier.  
+        * Her laser should do around 57 HP. Always be above this!  
+        * If you have lots of HP items, then do Confusion to get MP. Then use HP item after Magic Barrier. This saves an MP item.  
+        ''')
 shilf_df = pd.DataFrame(
     {
         "Event": [

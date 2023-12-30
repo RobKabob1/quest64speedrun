@@ -2,11 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("Zelse", anchor=None, help=None)
-with st.container(border=True):
-    st.write('''Goals: 81 HP, 20 MP, 24 Earth, 23 Water. Have Avalanche and Escape.''')
-
-st.divider()
-
+st.warning('''##### Goals: 81 HP, 20 MP, 24 Earth, 23 Water. Have Avalanche and Escape.''')
 
 st.header("Dondoran Flats/Glencoe Forest (0:25:05)")
 st.image('images/Dondoran1.jpg')
@@ -23,14 +19,11 @@ dondoran_one_df = pd.DataFrame(
     }
 )
 st.table(dondoran_one_df)
-
-with st.container(border=True):
-    st.subheader("Glenco Forest Tips")
-    st.markdown('''
-                * In Glenco Forest you want to hit the 23 Water goal, then go straight Earth.  
-                * Make sure to Escape encounters!
-                ''')
-   
+st.success('''
+            ### Glenco Forest Tips
+            * In Glenco Forest you want to hit the 23 Water goal, then go straight Earth.  
+            * Make sure to Escape encounters!
+            ''')
 glenco_forest_df = pd.DataFrame(
     {
         "Event": [
@@ -58,7 +51,6 @@ glenco_forest_df = pd.DataFrame(
 st.table(glenco_forest_df)
 st.write("Follow the path south towards the boat")
 st.image('images/Dondoran2.jpg')
-
 dondoran_two_df = pd.DataFrame(
     {
         "Event": [
@@ -71,8 +63,6 @@ dondoran_two_df = pd.DataFrame(
 )
 st.table(dondoran_two_df)
 st.write("Get on boat to West Carmagh")
-
-st.divider()
 
 st.header("West Carmagh/Larapool/Cull Hazard (0:31:33)")
 st.image('images/WestCarmagh.jpg')
@@ -97,14 +87,11 @@ west_carmagh_larapool_df = pd.DataFrame(
     }
 )
 st.table(west_carmagh_larapool_df)
-
-with st.container(border=True):
-    st.subheader("Cull Hazard Tips")
-    st.markdown('''
-                * For Experience: Get 4 blood jell group. Use Celene's bell or Silent Flute and then and Water Pillar away. 3. You get 2 elements from that.
-                * Make sure to Escape run out of encounters as you run through the cave!
-                ''')
-
+st.info('''
+        ### Cull Hazard Tips
+        * For Experience: Get 4 blood jell group. Use Celene's bell or Silent Flute and then and Water Pillar away. 3. You get 2 elements from that.
+        * Make sure to Escape run out of encounters as you run through the cave!
+        ''')
 cull_hazard_df = pd.DataFrame(
     {
         "Event": [
@@ -130,8 +117,6 @@ cull_hazard_df = pd.DataFrame(
 st.table(cull_hazard_df)
 st.write('''Make sure to have 18 Earth before leaving Cull Hazard (important!)''')
 
-st.divider()
-
 st.header("Normoon/Windward Forest (0:52:37)")
 normoon_df = pd.DataFrame(
     {
@@ -152,11 +137,10 @@ normoon_df = pd.DataFrame(
     }
 )
 st.table(normoon_df)
-with st.container(border=True):
-    st.subheader("Windward Forest Tips")
-    st.markdown('''
-             * Run from blaze female enemys and giant pig enemies.
-             ''')
+st.success('''
+            ### Windward Forest Tips
+            * Run from blaze female enemys and giant pig enemies.
+            ''')
 windward_forest_df = pd.DataFrame(
     {
         "Event": [
@@ -174,24 +158,19 @@ windward_forest_df = pd.DataFrame(
     }
 )
 st.table(windward_forest_df)
-
 st.write('''Make sure to have 81 HP, 20 MP, 24 Earth, and 23 Water before going to Zelse.  
          Reasoning for this is that we need Avalanche.''')
 
-st.divider()
-
 st.header("Zelse (0:55:55)")
-with st.container(border=True):
-    st.subheader("Zelse Tips")
-    st.write("680 HP")
-    st.markdown('''
-                * We don't want him to walk up to us.  
-                * Fight him mid range so he does Ice Wall. You can dodge this.  
-                * His Large Cutter up close is the most dangerous move.  
-                * Engage with Spirit Armor as your first move, move close to him, then Avalanche away.
-             ''')
+st.error('''
+        ### Zelse Tips
+        ###### 680 HP
+        * We don't want him to walk up to us.  
+        * Fight him mid range so he does Ice Wall. You can dodge this.  
+        * His Large Cutter up close is the most dangerous move.  
+        * Engage with Spirit Armor as your first move, move close to him, then Avalanche away.
+        ''')
 st.write("After Zelse is dead put 25 in Water for Heal 2 and put the rest in Earth for 27")
-
 zelse_df = pd.DataFrame(
     {
         "Event": [

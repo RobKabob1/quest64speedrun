@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("Solvaring", anchor=None, help=None)
-with st.container(border=True):
-    st.write('''Goals: 63 HP, 17 MP, 16 Water. Have Ice Knife.''')
-
-st.divider()
+st.warning('''##### Goals: 63 HP, 17 MP, 16 Water. Have Ice Knife.''')
 
 st.header("Melrode (0:00:00)", anchor="Melrode")
 melrode_df = pd.DataFrame(
@@ -32,8 +29,6 @@ melrode_df = pd.DataFrame(
 )
 st.table(melrode_df)
 
-st.divider()
-
 st.header("Holy Plain (0:08:22)")
 st.image('images/HolyPlain.jpg')
 holy_plain_df = pd.DataFrame(
@@ -51,8 +46,6 @@ holy_plain_df = pd.DataFrame(
     }
 )
 st.table(holy_plain_df)
-
-st.divider()
 
 st.header("Donoran/Connor Forest (0:07:34)")
 donoran_df = pd.DataFrame(
@@ -74,13 +67,11 @@ donoran_df = pd.DataFrame(
     }
 )
 st.table(donoran_df)
-
-with st.container(border=True):
-    st.subheader("Connor Forest Tips")
-    st.markdown('''
-                * For Experience: Kill groups with 5-6 Bat’s. It’s a spirit level up after you kill them. Round them up and water pillar them.
-                * For Defense Farm: Kill a solo Marionasty or the Frog Knights. You want to get hit by a bunch of Wind Cutters that do low damage.
-                ''')
+st.success('''
+           ### Connor Forest Tips
+            * For Experience: Kill groups with 5-6 Bat’s. It’s a spirit level up after you kill them. Round them up and water pillar them.
+            * For Defense Farm: Kill a solo Marionasty or the Frog Knights. You want to get hit by a bunch of Wind Cutters that do low damage.
+            ''')
 
 connor_forest_df = pd.DataFrame(
     {
@@ -103,13 +94,8 @@ connor_forest_df = pd.DataFrame(
     }
 )
 st.table(connor_forest_df)
-
 st.write('''Make sure to have 63 HP, 17 MP, 16 Water, and Ice Knife before going to Solvaring.  
          Reasoning for 63 HP: 4 hits from boss per item we use.''')
-
-
-
-st.divider()
 
 st.header("Solvaring (0:19:00)")
 solvaring_1_df = pd.DataFrame(
@@ -124,17 +110,13 @@ solvaring_1_df = pd.DataFrame(
     }
 )
 st.table(solvaring_1_df)
-
-with st.container(border=True):
-    st.subheader("Solvaring Tips")
-    st.write("200 HP")
-    st.markdown('''
-                * Don’t get close to him on pull from the chest.  
-                * Use Ice Knife to get him sub-50 and dodge his hand beam.  
-                * Then go in to get him with water pillar lvl 2  
-                * Stay decently far back with water pillar so that he wont do his ground pound move.  
-                ''')
-
+st.error('''
+         ### Solvaring Tips
+         ###### 200 HP 
+        * Use Ice Knife to get him sub-50 and dodge his hand beam.  
+        * Then go in to get him with water pillar lvl 2  
+        * Stay decently far back with water pillar so that he wont do his ground pound move.  
+        ''')
 solvaring_2_df = pd.DataFrame(
     {
         "Event": [
@@ -148,5 +130,4 @@ solvaring_2_df = pd.DataFrame(
     }
 )
 st.table(solvaring_2_df)
-
 st.write("End at 0:25:05")

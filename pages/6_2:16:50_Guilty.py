@@ -2,10 +2,8 @@ import streamlit as st
 import pandas as pd
 
 st.title("Guilty", anchor=None, help=None)
-with st.container(border=True):
-    st.write('''Goals: 156 HP, 24 MP, 50 Earth, 46 Water.''')
+st.warning('''##### Goals: 156 HP, 24 MP, 50 Earth, 46 Water.''')
 
-st.divider()
 st.header("Baragoon Moor/Brannoch Castle (2:02:00)")
 st.image('images/BaragoonMoor.jpg')
 baragoon_moor_df = pd.DataFrame(
@@ -35,24 +33,20 @@ baragoon_moor_df = pd.DataFrame(
     }
 )
 st.table(baragoon_moor_df)
-with st.container(border=True):
-    st.subheader("Brannoch Castle Tips")
-    st.write('''
-             * You want to Escape/run from every encounter. Ignore everything and focus on getting to Guilty. 
-            ''')
+st.info('''
+        ### Brannoch Castle Tips
+        * You want to Escape/run from every encounter. Ignore everything and focus on getting to Guilty. 
+        ''')
 st.write('''Make sure to have 156 HP, 24 MP, 50 Earth, and 46 Water before going to Guilty.  
         ''')
 
-st.divider()
-
 st.header("Guilty (2:10:32)")
-with st.container(border=True):
-    st.subheader("Guilty Tips")
-    st.write("1,800 HP")
-    st.write('''
-             * Engage by walking close to him. Take 1 step near his left foot. Start Magic Barrier/Avalanche.  
-             * If you fail Magic Barrier twice: Run away, wait for him to do the claw move, Magic Barrier and items to heal up, then get close near his left foot with 1 step and then Magic Barrier / Avalanche combo.  
-             * This is the hardest boss so use items liberally!
-             ''')
+st.error('''
+        ### Guilty Tips
+        ###### 1,800 HP
+        * Engage by walking close to him. Take 1 step near his left foot. Start Magic Barrier/Avalanche.  
+        * If you fail Magic Barrier twice: Run away, wait for him to do the claw move, Magic Barrier and items to heal up, then get close near his left foot with 1 step and then Magic Barrier / Avalanche combo.  
+        * This is the hardest boss so use items liberally!
+        ''')
 
 st.write("End at 2:16:15")
