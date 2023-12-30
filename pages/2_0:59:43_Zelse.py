@@ -40,7 +40,7 @@ glenco_forest_df = pd.DataFrame(
             "Follow the lake right it should be near the edge",
             "Follow the lake left and it's near where the lake nears the wall",
             "Near previous spirit, at the top of the hill",
-            "Hug the right wall from previous spirit and you will reach an opening which leads to another half of the forest.  Continue to a cottage, the spirit is outside.",
+            "Hug the right wall from previous spirit and continue to a cottage. The spirit is outside.",
             "Silent Flute: In cottage",
             "Near the blue cave rocks visible from the cabin",
             "Very close to previous, father from the water",

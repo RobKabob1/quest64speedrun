@@ -16,7 +16,7 @@ dindom_dries_df = pd.DataFrame(
             ],
         "Notes": [
             "Inside in a pot in the tent",
-            "Head south from the tent to the house.  When you reach the house head west you'll see it just before you would hit the wall.",
+            "Head southwest from the tent to the house. It's right before the wall.",
             "Save at Edward in the Inn",
             "To the right before you go in the Boil Hole",
             ]

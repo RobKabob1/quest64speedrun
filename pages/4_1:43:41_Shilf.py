@@ -24,7 +24,7 @@ east_limelin_1_df = pd.DataFrame(
             "❔ Spirit 53", 
             ],
         "Notes": [
-            "Look on your right as you go down the path from the ship, if you reach the waterfall you've gone to far.", 
+            "Look right as you go down the path from the ship", 
             "Mint Leaves & Healing Potion: First House in Limelin upstairs",
             "In a wheat field to the right",
             "Wings: Get wings in Limelin",
@@ -33,14 +33,15 @@ east_limelin_1_df = pd.DataFrame(
             "Behind the big statue that is just inside the castle",
             "Another one next to previous spirit",
             "Use Limelin wings to get back to entrance and leave Limelin",
-            "Take the other fork and you'll see the circular path going down but take the right and its by the dirt mound",
+            "Take the right when you see circular path going down. By the dirt mound.",
             "Mining Cabin- Inside in plain view",
             "Another one next to previous spirit",
-            "Between two mounds of dirt at the bottom of the circular path (this is your 50th earth spirit)"
+            "Between dirt mounds at the bottom of the circular path."
             ]
     }
 )
 st.table(east_limelin_1_df)
+st.write("You should now have 50 Earth")
 
 st.header("Baragoon Tunnel (1:30:06)")
 st.info('''
@@ -61,7 +62,7 @@ baragoon_tunnel_df = pd.DataFrame(
             "Healing Potion & Hero's Drink: 2 chests at start",
             "In a big room after the third tunnel",
             "Mint Leaves: in chest next to previous spirit",
-            "After the long bridge you'll get into a high walled maze, take the left and it's by a dirt mound.",
+            "In high walled maze, take the left and it's by a dirt mound.",
             "To the left on the lower level in the room with the two levels",
             ]
     }

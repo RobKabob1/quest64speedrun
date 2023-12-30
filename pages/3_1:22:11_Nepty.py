@@ -14,9 +14,9 @@ larapool_df = pd.DataFrame(
             "❔ Spirit 35", 
             ],
         "Notes": [
-            "Exit downstairs in the Larapool inn. Drain the water by walking in and out of the secret room.",
-            "With the water drained,  take the right path to a side opening to the spirit.", 
-            "With the water drained, take the left path and its near the other entrance to the inn.",
+            "Exit Larapool inn downstairs. Drain water via secret room.",
+            "With the water drained, take the right path to a side opening to the spirit.", 
+            "With the water drained, take the left path. Near the other entrance to the inn.",
             "On the right in the entrance to Blue Cave",
             ]
     }
@@ -38,7 +38,7 @@ blue_cave_df = pd.DataFrame(
         "Notes": [
             "In the maze (from the start) take a right at the start and then a left",
             "Mint Leaves: in chest next to previous spirit",
-            "In the maze (from the start) head straight, then a right, then a right, then a left to the spirit.",
+            "In the maze (from the start) head straight, then right, then right, then left to the spirit.",
             ]
     }
 )
