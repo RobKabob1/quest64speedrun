@@ -16,10 +16,11 @@ df = pd.DataFrame({
 })
 
 df
+st.header("Fuzzy's Speedrun")
+st.video("https://www.youtube.com/watch?v=VJxcMVaBfK8")
 st.header("Socials")
-
 st.markdown("Quest 64 Discord: https://discord.gg/7qvydbgn")
-st.markdown("Fuzzy's Speedrun: https://www.youtube.com/watch?v=VJxcMVaBfK8&t=1868s")
 st.markdown("Quest 64 Calculations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/66316")
 st.markdown("Spirit Locations: https://gamefaqs.gamespot.com/n64/198386-quest-64/faqs/38586")
 st.markdown("Maps: https://shrines.rpgclassics.com/n64/quest64/map/elimelin.shtml")
+
