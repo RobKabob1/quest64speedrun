@@ -25,8 +25,11 @@ dondoran_one_df = pd.DataFrame(
 st.table(dondoran_one_df)
 
 with st.container(border=True):
-    st.write('''In Glenco Forest you want to hit the 23 Water goal, then go straight Earth.  
-             Make sure to Escape encounters!''')
+    st.subheader("Glenco Forest Tips")
+    st.markdown('''
+                * In Glenco Forest you want to hit the 23 Water goal, then go straight Earth.  
+                * Make sure to Escape encounters!
+                ''')
    
 glenco_forest_df = pd.DataFrame(
     {
@@ -97,8 +100,10 @@ st.table(west_carmagh_larapool_df)
 
 with st.container(border=True):
     st.subheader("Cull Hazard Tips")
-    st.write("For EXP farm: Get 4 blood jell group. Use Celene's bell or Silent Flute and then and Water Pillar away. 3. You get 2 elements from that.")
-    st.write("Make sure to Escape run out of encounters as you run through the cave!")
+    st.markdown('''
+                * For Experience: Get 4 blood jell group. Use Celene's bell or Silent Flute and then and Water Pillar away. 3. You get 2 elements from that.
+                * Make sure to Escape run out of encounters as you run through the cave!
+                ''')
 
 cull_hazard_df = pd.DataFrame(
     {
@@ -149,7 +154,9 @@ normoon_df = pd.DataFrame(
 st.table(normoon_df)
 with st.container(border=True):
     st.subheader("Windward Forest Tips")
-    st.write('''Run from blaze female enemys and giant pig enemies.''')
+    st.markdown('''
+             * Run from blaze female enemys and giant pig enemies.
+             ''')
 windward_forest_df = pd.DataFrame(
     {
         "Event": [
@@ -177,10 +184,11 @@ st.header("Zelse (0:55:55)")
 with st.container(border=True):
     st.subheader("Zelse Tips")
     st.write("680 HP")
-    st.write('''We don't want him to walk up to us.  
-             Fight him mid range so he does Ice Wall. You can dodge this.  
-             His Large Cutter up close is the most dangerous move.  
-             Engage with Spirit Armor as your first move, move close to him, then Avalanche away.
+    st.markdown('''
+                * We don't want him to walk up to us.  
+                * Fight him mid range so he does Ice Wall. You can dodge this.  
+                * His Large Cutter up close is the most dangerous move.  
+                * Engage with Spirit Armor as your first move, move close to him, then Avalanche away.
              ''')
 st.write("After Zelse is dead put 25 in Water for Heal 2 and put the rest in Earth for 27")
 

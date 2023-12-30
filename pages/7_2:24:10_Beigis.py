@@ -36,8 +36,9 @@ st.header("Beigis (2:20:27)")
 with st.container(border=True):
     st.subheader("Beigis Tips")
     st.write("1,900 HP")
-    st.write('''All attacks hit extremely hard. Top your HP off always.  
-            Engage with Magic Barrier, use Giant's Boots, Magic Barrier, line up with carpet and ledge, then Avalanche / Magic Barrier away.
+    st.write('''
+             * All attacks hit extremely hard. Top your HP off always.  
+            * Engage with Magic Barrier, use Giant's Boots, Magic Barrier, line up with carpet and ledge, then Avalanche / Magic Barrier away.
              ''')
 
 st.write("End at 2:24:10")

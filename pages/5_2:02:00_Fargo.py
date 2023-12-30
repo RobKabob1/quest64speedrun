@@ -27,8 +27,9 @@ dindom_dries_df = pd.DataFrame(
 st.table(dindom_dries_df)
 with st.container(border=True):
     st.subheader("Boil Hole Tips")
-    st.write('''You want to maximize move distance in the cave by running towards/through enemies in each encounter as long as you don't die.  
-             The goal is to reduce Rocky spawns because they are so horrendously slow and add time to the run.''')
+    st.write('''
+             * You want to maximize move distance in the cave by running towards/through enemies in each encounter as long as you don't die.  
+             * The goal is to reduce Rocky spawns because they are so horrendously slow and add time to the run.''')
 boil_hole_df = pd.DataFrame(
     {
         "Event": [
@@ -55,9 +56,10 @@ st.header("Fargo (1:59:00)")
 with st.container(border=True):
     st.subheader("Fargo Tips")
     st.write("1,500 HP")
-    st.write('''Start by running to the right because we want him to approach us.  
-             Use Magic barrier, then he comes close, then you come close and Avalanche. If you do it right its 90%+ chance to hit every time.  
-             Fargo generally isn't worth using items on. You can use Confusion instead. Up close Fargo doesn't hurt as much.
+    st.write('''
+             * Start by running to the right because we want him to approach us.  
+             * Use Magic barrier, then he comes close, then you come close and Avalanche. If you do it right its 90%+ chance to hit every time.  
+             * Fargo generally isn't worth using items on. You can use Confusion instead. Up close Fargo doesn't hurt as much.
              ''')
 fargo_df = pd.DataFrame(
     {

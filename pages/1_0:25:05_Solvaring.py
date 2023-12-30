@@ -77,8 +77,10 @@ st.table(donoran_df)
 
 with st.container(border=True):
     st.subheader("Connor Forest Tips")
-    st.write("For Exp: you want group of 5-6 Bat’s. It’s a spirit lvl up after you kill them. Round them up and water pillar them.")
-    st.write("For Defense Farm: you want a solo Marionasty or the Frog Knights. you want to get hit by a bunch of wind cutters.")
+    st.markdown('''
+                * For Experience: Kill groups with 5-6 Bat’s. It’s a spirit level up after you kill them. Round them up and water pillar them.
+                * For Defense Farm: Kill a solo Marionasty or the Frog Knights. You want to get hit by a bunch of Wind Cutters that do low damage.
+                ''')
 
 connor_forest_df = pd.DataFrame(
     {
@@ -126,12 +128,12 @@ st.table(solvaring_1_df)
 with st.container(border=True):
     st.subheader("Solvaring Tips")
     st.write("200 HP")
-    st.write('''Don’t get close to him on pull from the chest.  
-             Use Ice Knife to get him sub-50 and dodge his hand beam.  
-             Then go in to get him with water pillar lvl 2  
-             Stay decently far back with water pillar so that he wont do his ground pound move.  
-             ''')
-    st.write()
+    st.markdown('''
+                * Don’t get close to him on pull from the chest.  
+                * Use Ice Knife to get him sub-50 and dodge his hand beam.  
+                * Then go in to get him with water pillar lvl 2  
+                * Stay decently far back with water pillar so that he wont do his ground pound move.  
+                ''')
 
 solvaring_2_df = pd.DataFrame(
     {

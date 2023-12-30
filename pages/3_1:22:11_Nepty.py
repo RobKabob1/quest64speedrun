@@ -28,9 +28,11 @@ st.table(larapool_df)
 
 with st.container(border=True):
     st.subheader("Blue Cave Tips")
-    st.write('''Avoid Coolers and Mimics. They hurt!   
-             The goal here is to make it through Blue Cave as fast as you can.  
-             There are no exp or defense farms that are efficient here.''')  
+    st.markdown('''
+                * Avoid Coolers and Mimics. They hurt!   
+                * The goal here is to make it through Blue Cave as fast as you can.  
+                * There are no exp or defense farms that are efficient here.
+                ''')  
    
 blue_cave_df = pd.DataFrame(
     {
@@ -95,10 +97,11 @@ st.header("Nepty (1:17:32)")
 with st.container(border=True):
     st.subheader("Nepty Tips")
     st.write("880 HP")
-    st.write('''Magic Barrier and Avalanche back and forth.  
-             Remember to Magic Barrier every 2 turns!  
-             Use MP items in between Magic Barriers. Mint Leaves first.  
-             If you have lots of HP items, then do Confusion to get MP. Then use HP item after Magic Barrier. This saves an MP item.  
-             ''')
+    st.markdown('''
+                * Magic Barrier and Avalanche back and forth.  
+                * Remember to Magic Barrier every 2 turns!  
+                * Use MP items in between Magic Barriers. Mint Leaves first.  
+                * If you have lots of HP items, then do Confusion to get MP. Then use HP item after Magic Barrier. This saves an MP item.  
+                ''')
 st.write("Head out of the underwater arena once Nepty is dead, get into an encounter, and die to an encounter. This death warp's us to Efna. Make sure to save here. Then, get on a boat to East Limelin.")
 st.write("End at 1:22:11")
