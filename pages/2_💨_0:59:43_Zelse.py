@@ -10,6 +10,24 @@ st.set_page_config(
 st.title("Zelse", anchor=None, help=None)
 st.warning('''##### Goals: 81 HP, 20 MP, 24 Earth, 23 Water. Have Avalanche and Escape.''')
 
+
+st.header("Solvaring's Lair to Dondoran Flats (0:24:03)")
+solvaring_2_df = pd.DataFrame(
+    {
+        "Event": [
+            "🌿 Item",
+            "- Action -",
+            "🫙 Item", 
+            ],
+        "Notes": [
+            "Mint Leaves: In chest behind Solvaring",
+            "Use Exit to get to start of Forest. Head towards Dondoran Flats.", 
+            "Dew Drop: In chest by Dondoran Flats entrance", 
+            ]
+    }
+)
+st.table(solvaring_2_df)
+
 st.header("Dondoran Flats/Glencoe Forest (0:25:05)")
 st.image('images/Dondoran1.jpg')
 dondoran_one_df = pd.DataFrame(

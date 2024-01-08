@@ -8,12 +8,15 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.title("Solvaring", anchor=None, help=None)
-st.warning('''##### Goals: 63 HP, 17 MP, 16 Water. Have Ice Knife.''')
+st.warning('''##### Goals: 63 HP, 16 MP, 16 Water.''')
 
 st.header("Melrode (0:00:00)", anchor="Melrode")
 melrode_df = pd.DataFrame(
     {
         "Event": [
+            "🫙 Item", 
+            "🫙 Item", 
+            "🫙 Item", 
             "🍞 Item", 
             "🍞 Item", 
             "❔ Spirit 1",
@@ -23,6 +26,9 @@ melrode_df = pd.DataFrame(
             "- Action -", 
             ],
         "Notes": [
+            "Dew Drop: In castle's large opened room",
+            "Dew Drop: In room after previous chest",
+            "Dew Drop: Second chest in room with previous Dew Drop",
             "Fresh Bread: Talk to lady", 
             "Honey Bread: In chest next to lady", 
             "Take left as you come out of the Monestary. It's in the hay.",
@@ -58,14 +64,12 @@ donoran_df = pd.DataFrame(
     {
         "Event": [
             "🫙 Item", 
-            "🍞 Item", 
             "🪽 Item",
             "❔ Spirit 6",
             "- Action -",
             ],
         "Notes": [
             "Dew Drop: In Donoran shop", 
-            "Honey Bread: In Donoran shop talk to dude", 
             "Wings: Get Donoran Wings",
             "In the light brown open space at the bottom of the city",
             "Use wings and leave Donoran",
@@ -77,6 +81,7 @@ st.success('''
            ### Connor Forest Tips
             * For Experience: Kill groups with 5-6 Bat’s. It’s a spirit level up after you kill them. Round them up and water pillar them.
             * For Defense Farm: Kill a solo Marionasty or the Frog Knights. You want to get hit by a bunch of Wind Cutters that do low damage.
+            * Tip: Run counterclockwise on Marionasty/Frog Knights to get hit with more Wind Cutters, meaning an overall faster Defense Farm.
             ''')
 
 connor_forest_df = pd.DataFrame(
@@ -119,21 +124,10 @@ st.table(solvaring_1_df)
 st.error('''
          ### Solvaring Tips
          ###### 200 HP 
-        * Use Ice Knife to get him sub-50 and dodge his hand beam.  
-        * Then go in to get him with water pillar lvl 2  
-        * Stay decently far back with water pillar so that he wont do his ground pound move.  
+        * Engage from Honey Bread chest area
+        * Use Giant's Shoes first turn to get closer, then dodge his hand beam.  
+        * Then go in to get him with Water Pillar lvl 1.
+        * It will take 9 Water Pillar hits.
+        * Remember, you can survive 4 hits of his ground pound. Then use bread!
         ''')
-solvaring_2_df = pd.DataFrame(
-    {
-        "Event": [
-            "- Action -",
-            "🫙 Item", 
-            ],
-        "Notes": [
-            "Use Exit to get to start of Forest. Head towards Dondoran Flats.", 
-            "Dew Drop: In chest by Dondoran Flats entrance", 
-            ]
-    }
-)
-st.table(solvaring_2_df)
-st.write("End at 0:25:05")
+st.write("End at 0:24:03")
