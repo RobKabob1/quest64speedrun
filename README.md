@@ -9,7 +9,7 @@ It shows times, spirits, chests, strategies, and everything you need to get a ru
 
 | Boss | Kill Time |
 | ------------- | ------------- |
-| Solvaring | 0:25:05 |
+| Solvaring | 0:24:03 |
 | Zelse | 0:59:43 |
 | Nepty | 1:22:11 |
 | Shilf | 1:43:41 |
